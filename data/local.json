@@ -46,7 +46,7 @@
                 "way[\"takeaway:covid19\"]"
             ],
             "list": true,
-            "zoom": 15,
+            "zoom": 13,
             "icon": "./image/bentou.svg"
         },
         "delivery": {
@@ -57,7 +57,7 @@
                 "way[\"delivery:covid19\"]"
             ],
             "list": true,
-            "zoom": 15,
+            "zoom": 13,
             "icon": "./image/delivery.svg"
         },
         "takeaway_shop": {
@@ -68,7 +68,7 @@
                 "way[\"shop\"=\"deli\"]"
             ],
             "list": true,
-            "zoom": 15,
+            "zoom": 13,
             "icon": "./image/bentou.svg"
         },
         "vending_machine": {
@@ -85,7 +85,7 @@
                 "way[\"amenity\"=\"library\"]"
             ],
             "list": true,
-            "zoom": 15,
+            "zoom": 13,
             "icon": "./image/library.svg"
         }
     }
