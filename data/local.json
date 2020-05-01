@@ -5,8 +5,8 @@
             35.069118,
             134.004542
         ],
-        "DefaultZoom": 15,
-        "MinZoomLevel": 15,
+        "DefaultZoom": 13,
+        "MinZoomLevel": 13,
         "attribution": "<a href=\"https://www.maptiler.com/copyright/\" target=\"_blank\">© MapTiler</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">© OpenStreetMap contributors</a>",
         "style": "https://api.maptiler.com/maps/basic/style.json?key=t6VPaKxxsNIm0SjfUoto"
     },
