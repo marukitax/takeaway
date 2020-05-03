@@ -64,7 +64,7 @@ header {
 #filterid {
     margin: 0px;
     padding: 1px;
-    height: 40px;
+    height: 30px;
     width: 100%;
 }
 
@@ -118,18 +118,19 @@ div.icon {
     white-space: nowrap;
 }
 
+a.icon {
+    color: white;    
+}
+
 img.icon {
     width: 16px;
     height: 16px;
 }
 
-a.icon {
-    color: white;    
-}
-
 span.icon {
     margin-left: 4px;
-    font-size: 14px;
+    padding: 2px;
+    font-size: 12px;
     white-space: nowrap;
     background-color: white;
     line-height: 1.0;
@@ -151,3 +152,23 @@ pre {
     background-color: initial !important;
     opacity: 1 !important;
 }
+
+#copied {
+    color: gray;
+    background-color: aqua;
+    padding: 0.5em;
+    left: -20em;
+    width: 19em;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+}
+.copied {
+    animation: copyCompleted 2s;
+}
+@keyframes copyCompleted {
+    0% { opacity: 1;}
+    50% { opacity: 1;}
+    100% { opacity: 0;}
+}
+
