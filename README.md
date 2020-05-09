@@ -1,4 +1,4 @@
-# みんなでテイクアウトMAP <開発版>
+# みんなでテイクアウトMAP <作州版>
 
 ## 概要と目的
 * OverPass APIでOpenStreetMapのテイクアウト/デリバリー施設を抽出して地図に表示するツール
@@ -36,6 +36,7 @@
 * data/local.json: "SplashImage"はWebサイトを開いた直後に表示する画像ファイルを指定
 * data/local.json: "DefaultCenter"はWebサイトを開いた時に表示する緯度経度を指定
 * data/local.json: "IconViewZoom"はWebサイトを開いた時のズームレベルを指定(1～20)
+* data/local.json: ownerを自サイト版へ
 * image/thumbnail.png: OGPで指定するサムネイル画像(og:imageで指定したファイル)
 * image/splash.png: スプラッシュスクリーン画像を指定
 
@@ -57,6 +58,10 @@
 * OpenStreetMap Japanのみなさま
 * 感想やフィードバックを頂いたみなさま
 
-## 連絡先
+## 連絡先（本家）
 * K.Sakanoshita (http://www.netfort.gr.jp/~saka/)
 * E-mail: saka@netfort.gr.jp / twitter: @K_Sakanoshita / facebook: K.Sakanoshita
+
+## 連絡先（作州版）
+* M.Kitamura
+* E-mail: morio.kitamura@gmail.com
